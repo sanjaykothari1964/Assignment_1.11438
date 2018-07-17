@@ -1,0 +1,10 @@
+Answer of question 2
+lower_limit=2000
+upper_limit=3200
+l=[]
+for i in range(lower_limit,upper_limit+1,):
+       if (i%7==0):
+            if (i%5==0):
+             continue
+            l.append(i)
+print(l)
