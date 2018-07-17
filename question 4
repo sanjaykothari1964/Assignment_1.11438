@@ -1,0 +1,5 @@
+#program o calculate the voulme of sphere of with diameter 12
+vol=0.0
+raidus = 12/2
+vol = (4*22*(raidus**3))/(3*7)
+print ("the volume of sphereis " , vol,"cm3")
