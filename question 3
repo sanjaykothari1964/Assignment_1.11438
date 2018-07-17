@@ -1,0 +1,7 @@
+# progrma to accept first name and last name and print them in reverse order
+name = input("Enter first name")
+last = input("Enter last name")
+rvname = name[::-1]
+rvlast = last[::-1]
+print(rvname, rvlast)
+
